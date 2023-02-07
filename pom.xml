@@ -8,11 +8,11 @@
 		<version>3.0.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.github.palyfight</groupId>
+	<groupId>com.palyfight</groupId>
 	<artifactId>superheatbot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SuperheatBot</name>
-	<description>Bot to train Magic, Mining and Smithing using the Runemate client</description>
+	<description>Bot to train Magic, Mining and Smithing using the Runemate Bot Client</description>
 
 	<properties>
 		<java.version>11</java.version>
@@ -47,7 +47,7 @@
 		<dependency>
 			<groupId>com.runemate</groupId>
 			<artifactId>runemate-client</artifactId>
-			<version>3.6.3.0</version>
+			<version>3.6.7.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.runemate</groupId>

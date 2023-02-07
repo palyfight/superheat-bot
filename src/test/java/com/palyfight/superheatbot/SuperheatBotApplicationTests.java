@@ -1,10 +1,10 @@
-package com.github.palyfight.superheatbot;
+package com.palyfight.superheatbot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SuperheatbotApplicationTests {
+class SuperheatBotApplicationTests {
 
 	@Test
 	void contextLoads() {
