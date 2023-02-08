@@ -2,12 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.0.2</version>
-		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
+<!--	<parent>-->
+<!--		<groupId>org.springframework.boot</groupId>-->
+<!--		<artifactId>spring-boot-starter-parent</artifactId>-->
+<!--		<version>3.0.2</version>-->
+<!--		<relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
+<!--	</parent>-->
 	<groupId>com.palyfight</groupId>
 	<artifactId>superheatbot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -21,10 +21,10 @@
 	<!-- Runemate Gitlab Mvn Repos -->
 	<!-- https://gitlab.com/runemate/community/runemate-client/-/packages/11847571 -->
 	<repositories>
-		<repository>
-			<id>runemate-client</id>
-			<url>https://gitlab.com/api/v4/projects/10471880/packages/maven</url>
-		</repository>
+<!--		<repository>-->
+<!--			<id>runemate-client</id>-->
+<!--			<url>https://gitlab.com/api/v4/projects/10471880/packages/maven</url>-->
+<!--		</repository>-->
 		<repository>
 			<id>runemate-game-api</id>
 			<url>https://gitlab.com/api/v4/projects/32972353/packages/maven</url>
@@ -33,57 +33,57 @@
 
 	<dependencies>
 		<!-- SPRING BOOT -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-configuration-processor</artifactId>
-			<optional>true</optional>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter</artifactId>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-configuration-processor</artifactId>-->
+<!--			<optional>true</optional>-->
+<!--		</dependency>-->
 
 		<!-- RuneMate -->
-		<dependency>
-			<groupId>com.runemate</groupId>
-			<artifactId>runemate-client</artifactId>
-			<version>3.6.7.0</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>com.runemate</groupId>-->
+<!--			<artifactId>runemate-client</artifactId>-->
+<!--			<version>3.6.7.0</version>-->
+<!--		</dependency>-->
 		<dependency>
 			<groupId>com.runemate</groupId>
 			<artifactId>runemate-game-api</artifactId>
 			<version>1.8.7</version>
 		</dependency>
 
-		<!-- OTHER -->
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<optional>true</optional>
-		</dependency>
+<!--		&lt;!&ndash; OTHER &ndash;&gt;-->
+<!--		<dependency>-->
+<!--			<groupId>org.projectlombok</groupId>-->
+<!--			<artifactId>lombok</artifactId>-->
+<!--			<optional>true</optional>-->
+<!--		</dependency>-->
 
-		<!-- Tests -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
+<!--		&lt;!&ndash; Tests &ndash;&gt;-->
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-test</artifactId>-->
+<!--			<scope>test</scope>-->
+<!--		</dependency>-->
 	</dependencies>
 
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<excludes>
-						<exclude>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-						</exclude>
-					</excludes>
-				</configuration>
-			</plugin>
+<!--			<plugin>-->
+<!--				<groupId>org.springframework.boot</groupId>-->
+<!--				<artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--				<configuration>-->
+<!--					<excludes>-->
+<!--						<exclude>-->
+<!--							<groupId>org.projectlombok</groupId>-->
+<!--							<artifactId>lombok</artifactId>-->
+<!--						</exclude>-->
+<!--					</excludes>-->
+<!--				</configuration>-->
+<!--			</plugin>-->
 		</plugins>
 	</build>
 
