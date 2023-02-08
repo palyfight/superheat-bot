@@ -1,0 +1,14 @@
+<manifest>
+    <main-class>com.palyfight.superheatbot.test</main-class>
+    <name>Test</name>
+    <description>This is a test.</description>
+    <version>0.0.1</version>
+    <compatibility>
+        <game>OSRS</game>
+    </compatibility>
+    <categories>
+        <category>MAGIC</category>
+        <category>MINING</category>
+        <category>SMITHING</category>
+    </categories>
+</manifest>
