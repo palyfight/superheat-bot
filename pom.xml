@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.palyfight</groupId>
+	<groupId>com.palyfight.bots</groupId>
 	<artifactId>superheatbot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SuperheatBot</name>
@@ -27,18 +27,6 @@
 		</repository>
 	</repositories>
 
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>org.apache.logging.log4j</groupId>
-				<artifactId>log4j-bom</artifactId>
-				<version>2.19.0</version>
-				<scope>import</scope>
-				<type>pom</type>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
-
 	<dependencies>
 		<!-- RuneMate -->
 <!--		<dependency>-->
@@ -49,17 +37,15 @@
 		<dependency>
 			<groupId>com.runemate</groupId>
 			<artifactId>runemate-game-api</artifactId>
-			<version>1.8.7</version>
+			<version>1.10.1</version>
 		</dependency>
 
 		<!-- LOGGING -->
 		<dependency>
-			<groupId>org.apache.logging.log4j</groupId>
-			<artifactId>log4j-api</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.logging.log4j</groupId>
-			<artifactId>log4j-core</artifactId>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.26</version>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 
